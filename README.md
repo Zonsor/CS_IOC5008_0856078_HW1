@@ -4,7 +4,7 @@
 https://www.kaggle.com/c/cs-ioc5008-hw1/overview
 
 **Brief introduction:**  
-　The task of the homework is the scene recognition. I train a convolution neural network using transfer learning to complete this competition. Moreover, I do some data augmentation and hyperparameter tuning to improve accuracy. And I get the final score of 0.97211 in Kaggle competition.  
+　The task of the homework is the scene recognition. I train a convolution neural network using transfer learning to complete this competition. Moreover, I do some data augmentation and hyperparameter tuning to improve accuracy. And I get the final score of **0.97211** in Kaggle competition.  
 
 **Methodology:**  
 　I choose “ResNext-101-32x8d” as my CNN model because it has the lowest classification error rate in ImageNet dataset. And I think that the tasks of these two datasets are slightly different, so when I do transfer learning, I don’t fix any layer. I just use pre-train model and retrain it. Besides, my input size is 256x256 because it is the size of most training set.  
